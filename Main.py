@@ -30,8 +30,8 @@ def Cek_Data() :
         with open("Data_User.csv","r") as file_user :
             df_user = pd.read_csv(file_user, dtype={"Nomor" : "str"})
             konten_user= {"Nama"    : "SyadidCH",
-                          "Nomor"   : "085606359701",
-                          "Alamat"  : "Lumajang",
+                          "Nomor"   : "085999999999",
+                          "Alamat"  : "Jatim",
                           "Password": "did",
                           "status"  : "admin"
                           }
